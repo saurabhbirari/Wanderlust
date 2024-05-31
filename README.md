@@ -63,3 +63,19 @@ npm app.js  or nodemon app.js
 ```
 mongodb://localhost:27017/
 ```
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+<h4> frontend </h4>
+*   html<br>
+*   css<br>
+*   javascript<br>
+*   ejs(It is designed to simplify the process of rendering dynamic content in web applications))
+<h4> backend</h4>
+*   node.js<br>
+*   express.js<br>
+<h4>  Database</h4>
+*   mongodb<br>
+ <h4>  Framework</h4>
+*   Bootstrap<br>
