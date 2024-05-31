@@ -1,12 +1,16 @@
 <h1 align="center" id="title">Wanderlust</h1>
 
 <p id="description">This MERN Stack Vacation Rental Platform is a comprehensive and feature-rich web application inspired by Airbnb. This platform allows users to list discover and book unique accommodations around the world. Utilizing the MERN stack (MongoDB Express.js React and Node.js) the application delivers a seamless and dynamic user experience for both hosts and guests.</p>
-
+<h1 align="center">
+🌐 MERN Stack
+</h1>
+<p align="center">
+MongoDB, Expressjs, React/Redux, Nodejs
+</p>
 <h2>🚀 Demo</h2>
-
-[https://wanderlust-project-nsdn.onrender.com/listings](https://wanderlust-project-nsdn.onrender.com/listings)
-
-  
+<hr>
+https://wanderlust-project-nsdn.onrender.com/listings
+<hr>
   
 <h2>🧐 Features</h2>
 
@@ -19,6 +23,13 @@ Here're some of the project's best features:
 *   5.Database Management: <br>Utilization of MongoDB for efficient and flexible data storage. Schema design and data modeling with Mongoose for structured and consistent data. Aggregation and indexing to enhance query performance and application efficiency.
 *   6.Deployment: <br>Deployment is done on render platform.
 *   <h2>Use Cases:</h2> Vacation Rentals:<br> Users can list and book unique vacation homes apartments and other accommodations. Business Travel: Professionals can find suitable accommodations for short-term business trips. Event Hosting: Hosts can list properties suitable for hosting events workshops and retreats.
+
+## Prerequisites
+- [MongoDB](https://gist.github.com/nrollr/9f523ae17ecdbb50311980503409aeb3)
+- [Node](https://nodejs.org/en/download/) ^20.10.1
+- [npm](https://nodejs.org/en/download/package-manager/)
+
+notice, you need client and server runs concurrently in different terminal session, in order to make them talk to each other
 
 <h2>🛠️ Installation Steps:</h2>
 
