@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Wanderlust</h1>
 
-<p id="description">This MERN Stack Vacation Rental Platform is a comprehensive and feature-rich web application inspired by Airbnb. This platform allows users to list discover and book unique accommodations around the world. Utilizing the MERN stack (MongoDB Express.js React and Node.js) the application delivers a seamless and dynamic user experience for both hosts and guests.</p>
+<p id="description">This MERN Stack Vacation Rental Platform is a comprehensive and feature-rich web application inspired by Airbnb. This platform allows users to list discover accommodations around the world. Utilizing the MERN stack (MongoDB Express.js React and Node.js) the application delivers a seamless and dynamic user experience for both hosts and guests.</p>
 <h1 align="center">
 🌐 MERN Stack
 </h1>
@@ -26,7 +26,7 @@ Here're some of the project's best features:
 
 ## Prerequisites
 - [MongoDB](https://gist.github.com/nrollr/9f523ae17ecdbb50311980503409aeb3)
-- [Node](https://nodejs.org/en/download/) ^20.10.1
+- [Node](https://nodejs.org/en/download/) ^18
 - [npm](https://nodejs.org/en/download/package-manager/)
 
 notice, you need client and server runs concurrently in different terminal session, in order to make them talk to each other
@@ -44,36 +44,58 @@ git clone https://github.com/saurabhbirari/Wanderlust.git
 ```
 cd your-repo-name
 ```
+<p>3. Set up the database:</p>
+   - Create a `.env` file in the root directory of the project.
+   - Add the following line to the `.env` file:
 
-<p>3. Install Dependencies</p>
+     ```
+     ATLASDB_URL=mongodb://127.0.0.1:27017/wanderlust
+     ```
+
+<p>4. Set up Cloudinary:</p>
+   - Go to [Cloudinary](https://cloudinary.com/) and sign up for a free account.
+   - Once logged in, obtain your Cloudinary `CLOUD_NAME`, `CLOUD_API_KEY`, and `CLOUD_API_SECRET`.
+   - Add these values to the `.env` file:
+
+     ```
+     CLOUD_NAME=your_cloud_name
+     CLOUD_API_KEY=your_api_key
+     CLOUD_API_SECRET=your_api_secret
+     ```
+
+<p>5. Set the secret for your Cloudinary storage:</p>
+   - Add a `SECRET` key to your `.env` file and set it to a secure value:
+
+     ```
+     SECRET=your_cloudinary_secret
+     ```
+
+<p>6. Install Dependencies</p>
 
 ```
 npm install
 ```
 
-<p>4. Set Up Environment Variables</p>
+<p>7. Run the application using Nodemon:</p>
 
-```
-touch .env  
-```
+   ```
+   nodemon app.js
+   ```
 
-<p>5. Then open the .env file and add your variables:</p>
+<p>8. Access the project:</p>
+   - Once the server is running, you can access the project at [http://localhost:8080](http://localhost:8080).
 
-```
-CLOUD_NAME=   CLOUD_API_KEY=  CLOUD_API_SECRET=  MAP_TOKEN=   ATLASDB_URL=  SECRET=
-```
 
-<p>6. Start the Backend Server</p>
+
+<p>9. Start the Backend Server</p>
 
 ```
 npm app.js  or nodemon app.js
 ```
+<p>10. Access the project:</p>
+   - Once the server is running, you can access the project at [http://localhost:8080](http://localhost:8080).
 
-<p>7. Running MongoDB Locally</p>
-
-```
-mongodb://localhost:27017/
-```
+<hr>
 <h2>💻 Built with</h2>
 
 Technologies used in the project:
