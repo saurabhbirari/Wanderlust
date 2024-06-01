@@ -82,18 +82,13 @@ npm install
    nodemon app.js
    ```
 
-<p>8. Access the project:</p>
-   - Once the server is running, you can access the project at [http://localhost:8080](http://localhost:8080).
-
-
-
-<p>9. Start the Backend Server</p>
+<p>8. Start the Backend Server</p>
 
 ```
 npm app.js  or nodemon app.js
 ```
-<p>10. Access the project:</p>
-   - Once the server is running, you can access the project at [http://localhost:8080](http://localhost:8080).
+<p>9. Access the project:</p>
+   - Once the server is running, you can access the project at [http://localhost:8080]
 
 <hr>
 <h2>💻 Built with</h2>
