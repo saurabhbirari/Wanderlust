@@ -11,6 +11,42 @@ MongoDB, Expressjs, React/Redux, Nodejs
 <hr>
 https://wanderlust-project-nsdn.onrender.com/listings
 <hr>
+
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+### Frontend  
+<div align="center">  
+<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>  
+<a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" /></a>  
+<a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>  
+<a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="50" /></a>  
+</div>
+
+</td><td valign="top" width="33%">
+
+
+
+### Backend  
+<div align="center">  
+<a href="https://nodejs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="50" /></a>  
+<a href="https://expressjs.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg" alt="Express.js" height="50" /></a>  
+</div>
+
+</td><td valign="top" width="33%">
+
+
+
+### Database  
+<div align="center">  
+<a href="https://www.mongodb.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg" alt="MongoDB" height="50" /></a>  
+</div>
+
+</td></tr></table>  
+
+<br/>  
+
   
 <h2>🧐 Features</h2>
 
@@ -91,19 +127,3 @@ npm app.js  or nodemon app.js
    - Once the server is running, you can access the project at [http://localhost:8080]
 
 <hr>
-<h2>💻 Built with</h2>
-
-Technologies used in the project:
-
-<h4> frontend </h4>
-*   html<br>
-*   css<br>
-*   javascript<br>
-*   ejs(It is designed to simplify the process of rendering dynamic content in web applications))
-<h4> backend</h4>
-*   node.js<br>
-*   express.js<br>
-<h4>  Database</h4>
-*   mongodb<br>
- <h4>  Framework</h4>
-*   Bootstrap<br>
